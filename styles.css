@@ -1,12 +1,12 @@
 /* your code here */
 .fa{
-	padding:20px;
+	padding:10px;
 	font-size:30px;
 	width:30px;
 	text-align:center;
 	text-decoration:none;
 	margin:5px 5px;
-	border-radius:90%;
+	border-radius:50%;
 }
 fa:hover{
 	opacity:0.5;
@@ -32,10 +32,74 @@ fa:hover{
   background: #007bb5;
   color: white;
 }
-.logo_name{
-	font-family:"Lucida Console", "Courier New", monospace;
-	
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-.media-icons{
-	margin-left:auto;
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-links h3, .footer-services h3, .footer-other-services h3, .footer-contact h3 {
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer-links ul, .footer-services ul, .footer-other-services ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-links li, .footer-services li, .footer-other-services li, .footer-contact li {
+    margin-bottom: 10px;
+	color:white;
+}
+.footer-links a, .footer-services a, .footer-other-services a, .footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
+	margin-left:10px;
+	margin-right:10px;
+}
+#extra-bottom-footer{
+	display:inline;
+	justify-content:justify;
+	margin-left:10px;
+}
+.bottom-details{
+	background-color:#333;
+	padding:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
